@@ -21,6 +21,9 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/fcnt/M06/M06-vendor.mk)
 
+# 2by2 stuff
+CUSTOM_PROCESSOR_INFO := Qualcomm Snapdragon 7s Gen 2
+
 ## Device identifier
 PRODUCT_DEVICE := M06
 PRODUCT_NAME := lineage_M06
